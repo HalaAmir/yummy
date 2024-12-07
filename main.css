@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+    color: #fff;
+    overflow: hidden;
+}
+
+
+.logo{
+    width: 50px;
+}
+.sideNavMenue{
+ 
+    z-index: 99999;
+   
+} 
+
+li{
+    position: relative;
+    padding-top:1em;
+    cursor: pointer;
+}
+i{
+    cursor: pointer;
+}
+
+
+.meal-layer{
+    width: 100%;
+    height: 100%;
+   transition: .5s;
+   top: 100%;
+   background-color: #f9f6f6ca;;
+}
+
+
+.meel:hover .meal-layer{
+   top: 0;
+}
+
+.cursor-pointer{
+    cursor:pointer;
+}
+
+.fa-house-laptop{
+    font-size: 4em;
+}
+
+
+
+ .innerLoadScreen{
+    z-index: 9999;
+    display: flex;
+} 
+
+
+.loadScreen{
+    display: flex;
+    z-index: 9999999;
+}
